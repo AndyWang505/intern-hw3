@@ -226,6 +226,12 @@ footer{
 	text-align: right;
 	margin-top: 28px;
 }
+
+.order{
+	max-width: 1024px;
+	margin: auto;
+}
+
 /* =========================== layout ========================= */
 .logo{
 	display: flex;

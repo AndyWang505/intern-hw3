@@ -227,11 +227,37 @@ footer{
 	margin-top: 28px;
 }
 
-.order{
+.order,.order a{
 	max-width: 1024px;
 	margin: auto;
+	color: #3D1101;
 }
 
+.order_block{
+	display: flex;
+	justify-content: space-between;
+	padding: 48px 42px 20px 42px;
+}
+
+.menu_header{
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+}
+.menu_list{
+	margin-top: 26px;
+}
+.menu_list ul{
+	width: 700px;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+.menu_items{
+	width: 220px;
+	margin-bottom: 30px;
+	box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2);
+}
 /* =========================== layout ========================= */
 .logo{
 	display: flex;
@@ -427,5 +453,95 @@ footer h3{
 }
 .booking_form_btn .submit{
 	background: #F56C23;
+}
+.order_list h2{
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+.order_list h2 i{
+	font-size: 26px;
+}
+.order_list li{
+	width: 220px;
+	border-bottom: 1px solid #3D1101;
+}
+.order_list a{
+	padding: 8px;
+	display: block;
+}
+.order_list a:hover{
+	color: white;
+	transition: 0.3s;
+}
+.order_list li:hover{
+	background-color: #3D1101;
+	transition: 0.3s;
+}
+.active{
+	background-color: #3D1101;
+}
+.active a{
+	color: white;
+}
+.menu_search{
+	position:relative;
+}
+.menu_search input{
+	width: 460px;
+	height: 32px;
+	border: 2px solid #3D1101;
+	background-color:#EFE9E7;
+	padding: 5px;
+}
+.menu_search button{
+	position: absolute;
+	right: 0;
+	border: none;
+	background-color: #3D1101;
+	color: white;
+	width: 36px;
+	height: 32px;
+}
+.menu_cart{
+	display: flex;
+	align-items: center;
+}
+.menu_cart i{
+	font-size: 27px;
+}
+.menu_cart span{
+	margin: 0 6px 0 6px;
+}
+.menu_items img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.menu_items{
+	text-align: center;
+	line-height: normal;
+}
+.menu_items h3{
+	font-size: 20px;
+}
+.menu_items h4{
+	font-size: 12px;
+}
+.menu_items hr{
+	width: 91px;
+	margin: 8px auto 20px auto;
+}
+.prize{
+	font-weight: bold;
+	font-family: "Roboto-Light";
+	font-style: italic;
+}
+.menu_items button{
+	width: 200px;
+	height: 28px;
+	margin: 13px auto 10px auto;
+	border: 2px solid #FF5E45;
+	border-radius: 3px;
+	color: #FF5E45;
+	background-color: #EFE9E7;
 }
 /* ========================== element ========================= */

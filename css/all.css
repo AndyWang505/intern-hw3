@@ -977,7 +977,7 @@ footer h3{
 
 @media (max-width: 767px){
 	.gotop{
-		position: unset;
+		display: none;
 	}
 }
 

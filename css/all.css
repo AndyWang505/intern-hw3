@@ -183,13 +183,13 @@ footer{
 	list-style-type: disc;
 }
 
-.icon_block{
+.icon_wrap{
 	text-align: right;
 	margin-top: 22px;
 }
 
 @media (max-width: 767px){
-	.icon_block{
+	.icon_wrap{
 		text-align: center;
 	}
 }
@@ -318,7 +318,7 @@ footer{
 	}
 }
 
-.booking_wrap{
+.booking_background{
 	background: rgba(250,250,250,0.70);
 }
 
@@ -329,7 +329,7 @@ footer{
 	padding: 50px 42px 50px 42px;
 }
 
-.booking_block{
+.booking_wrap{
 	display: flex;
 	justify-content: space-between;
 }
@@ -342,7 +342,7 @@ footer{
 	flex-direction: column;
 }
 
-.choose_block{
+.choose_wrap{
 	display: flex;
 }
 
@@ -371,20 +371,20 @@ footer{
 	}
 }
 
-.order_block{
+.order_wrap{
 	display: flex;
 	justify-content: space-between;
 	padding: 48px 42px 20px 42px;
 }
 
 @media (max-width: 1000px){
-	.order_block{
+	.order_wrap{
 		justify-content: space-around;
 	}
 }
 
 @media (max-width: 767px){
-	.order_block{
+	.order_wrap{
 		display: block;
 		padding: 48px 16px 20px 16px;
 	}
@@ -603,7 +603,7 @@ footer h3{
 	margin-bottom: 16px;
 }
 
-.icon_block i{
+.icon_wrap i{
 	font-size: 36px;
 	margin-left: 10px;
 }
@@ -726,7 +726,7 @@ footer h3{
 		height: auto;
 		padding: 50px 16px 50px 16px;
 	}
-	.booking_block{
+	.booking_wrap{
 		flex-direction: column;
     	align-items: center;
 	}
@@ -754,7 +754,7 @@ footer h3{
 	border-radius: 3px;
 }
 
-.choose_block input{
+.choose_wrap input{
 	margin-right: 36px;
 	height: auto;
 }
